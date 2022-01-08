@@ -1,0 +1,44 @@
+body {
+  background-color: #161616;
+  font-family: sans-serif;
+}
+
+.counter span {
+  border: 1px solid #f6f6f6;
+  padding: 8px 25px;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.counter {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 150px auto;
+  color: #f6f6f6;
+  text-align: center;
+}
+
+.counter h2 {
+  font-size: 35px;
+  margin-bottom: 0.75rem;
+  font-family: sans-serif;
+}
+
+.counter .count {
+  font-size: 30px;
+  margin-bottom: 1.75rem;
+}
+
+.counter span:hover {
+  background-color: #fff;
+  color: #161616;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,42 @@
+
+body{
+    background-color: #161616;
+    font-family: sans-serif;
+}
+%btns{
+    border: 1px solid #f6f6f6;
+    padding: 8px 25px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.5s linear;
+}
+.counter{
+
+    display: block;
+    justify-content: center;
+    align-content: center;
+    margin: 150px auto;
+    color: #f6f6f6;
+    text-align: center;
+    h2{
+        font-size: 35px;
+        margin-bottom: 0.75rem;
+        font-family: sans-serif;
+    }
+    .count{
+        font-size: 30px;
+        margin-bottom: 1.75rem;
+
+    }
+    span{
+        @extend %btns;
+        &:hover{
+            background-color: #fff;
+            color: #161616;
+        }
+    }
+
+
+}
